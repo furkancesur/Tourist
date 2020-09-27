@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  Tourist
+
+  Created by cesur on 24.09.2020.
+  
+*/
+"CFBundleName" = "Tourist";
+"CFBundleDisplayName" = "Tourist";

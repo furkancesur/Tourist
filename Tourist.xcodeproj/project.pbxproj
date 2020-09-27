@@ -14,6 +14,8 @@
 		D1E143612517D68000B55A0C /* TouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E143602517D68000B55A0C /* TouristTests.swift */; };
 		D1E1436C2517D68000B55A0C /* TouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1436B2517D68000B55A0C /* TouristUITests.swift */; };
 		D1E1437D2517DC1900B55A0C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E1437C2517DC1900B55A0C /* MapView.swift */; };
+		D1E14389251CC4E300B55A0C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1E1438B251CC4E300B55A0C /* Localizable.strings */; };
+		D1E1439B251CCD6200B55A0C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1E1439D251CCD6200B55A0C /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,10 @@
 		D1E1436B2517D68000B55A0C /* TouristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouristUITests.swift; sourceTree = "<group>"; };
 		D1E1436D2517D68000B55A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1E1437C2517DC1900B55A0C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D1E1438A251CC4E300B55A0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D1E14392251CCA2B00B55A0C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D1E1439C251CCD6200B55A0C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1E143A1251CCD7000B55A0C /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,10 @@
 				D1E1434E2517D67E00B55A0C /* TouristApp.swift */,
 				D1E143502517D67E00B55A0C /* ContentView.swift */,
 				D1E1437C2517DC1900B55A0C /* MapView.swift */,
+				D1E1438B251CC4E300B55A0C /* Localizable.strings */,
 				D1E143522517D68000B55A0C /* Assets.xcassets */,
 				D1E143572517D68000B55A0C /* Info.plist */,
+				D1E1439D251CCD6200B55A0C /* InfoPlist.strings */,
 				D1E143542517D68000B55A0C /* Preview Content */,
 			);
 			path = Tourist;
@@ -218,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = D1E143422517D67E00B55A0C;
 			productRefGroup = D1E1434C2517D67E00B55A0C /* Products */;
@@ -237,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1E143562517D68000B55A0C /* Preview Assets.xcassets in Resources */,
+				D1E1439B251CCD6200B55A0C /* InfoPlist.strings in Resources */,
+				D1E14389251CC4E300B55A0C /* Localizable.strings in Resources */,
 				D1E143532517D68000B55A0C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +309,27 @@
 			targetProxy = D1E143682517D68000B55A0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1E1438B251CC4E300B55A0C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E1438A251CC4E300B55A0C /* en */,
+				D1E14392251CCA2B00B55A0C /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D1E1439D251CCD6200B55A0C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1E1439C251CCD6200B55A0C /* en */,
+				D1E143A1251CCD7000B55A0C /* tr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D1E1436E2517D68000B55A0C /* Debug */ = {
